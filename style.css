@@ -79,4 +79,62 @@ td {
   text-align: center;
 }
 
+.person h3 {
+  background-color: rgba(164, 139, 228, 0.431);
+}
 
+.person-img {
+  display: block;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.person-name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.person-text {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#info {
+  margin-top: 16px;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+  /* border: solid 1px black; */
+}
+
+#info span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.footer h3 {
+  background-color: rgba(208, 211, 39, 0.431);
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 6px;
+}
+
+.center-italic {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  border: solid 1px black;
+}
