@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Link al index</a>
+    </div>
+    <div class="center-italic form">
+      <h2>Contacto</h2>
+      <form action="#" method="get">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+          />
+        </div>
+        <div class="correo">
+          <label for="mail">Correo:</label>
+          <input
+            type="mail"
+            id="mail"
+            name="mail"
+            placeholder="Escribe tu correo"
+          />
+        </div>
+
+        <div class="radio">
+          <label for="hombre">Hombre</label>
+          <input type="radio" name="genero" id="hombre" value="hombre" />
+          <label for="mujer">Mujer</label>
+          <input type="radio" name="genero" id="mujer" value="mujer" />
+        </div>
+
+        <div class="pass">
+          <label for="pass">Contraseña:</label>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Escribe tu contraseña"
+          />
+        </div>
+
+        <div>
+          <label for="comentario">Comentario:</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            cols="30"
+            rows="10"
+            placeholder="Escribe un comentario"
+          ></textarea>
+        </div>
+
+        <div class="ciudad">
+          <label for="ciudad">Ciudad:</label>
+          <select name="ciudad" id="ciudad">
+            <option value="">Ciudad</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Zapopan">Zapopan</option>
+            <option value="Tonalá">Tonalá</option>
+          </select>
+        </div>
+
+        <div class="contratar">
+          <label for="contratar">Me interesa contratarte</label>
+          <input type="checkbox" name="contratar" id="contratar" value="ok" />
+        </div>
+
+        <input type="button" name="enviar" value="Enviar" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
